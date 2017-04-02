@@ -1,0 +1,66 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+body {
+    background-color: #F4F8F9;
+    font-family: Helvetica;
+    font-size: 30px;
+    color: #000000;
+}
+.tweet {
+    background-color: #FFFFFF;
+    width: 900px;
+    margin: 30px;
+    padding: 30px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #E1E8ED;
+}
+.picture {
+    float: left;
+}
+.name-identifier {
+    float: left;
+    margin-left: 20px;
+}
+.name {
+    font-size: 35px;
+    font-weight: bold;
+}
+.identifier {
+    font-size: 26px;
+    color: #697882;
+}
+.identifier p {
+    margin-top: 0px;
+    margin-left: -5px;
+}
+.follow {
+    float: right;
+    border-style: solid;
+    border-radius: 10px;
+    color: #55ACEE;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+}
+.message {
+    margin-top: 100px;
+}
+.footer {
+    color: #697882;
+    font-size: 26px;
+}
+.time p{
+    margin-top: -20px;
+}
+.actions {
+    margin-top: 10px;
+}
+
